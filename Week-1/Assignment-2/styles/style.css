@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  color: #5a3e2b;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4a226;
+}
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.section_title {
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+.welcome {
+  padding: 8rem 10rem;
+  background-color: #e5771f;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+.container .box {
+  border: 1px solid #5a3e2b;
+  border-radius: 10px;
+  padding: 6rem 2rem;
+  width: 600vw;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: #76c7ad;
+}
+
+.button {
+  margin: 5rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  font-size: large;
+  background-color: #f4a226;
+  cursor: pointer;
+}
+
+#hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
